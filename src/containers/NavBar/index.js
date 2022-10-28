@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../../assets/OmniFlix.svg';
+import pupmosLogo from '../../assets/pupmos.png';
 import './index.css';
 import DisconnectButton from './DisconnectButton';
 import Tabs from './Tabs';
@@ -327,6 +328,7 @@ class NavBar extends Component {
         return (
             <div className={ClassNames('nav_bar padding', localStorage.getItem('of_co_address') || this.props.address
                 ? '' : 'disconnected_nav')}>
+                <img src={pupmosLogo} style={{maxHeight: '60px', maxWidth: '60px'}}/>
                 <img
                     alt="OmniFlix"
                     src={logo}

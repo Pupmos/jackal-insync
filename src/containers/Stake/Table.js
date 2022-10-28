@@ -24,8 +24,8 @@ class Table extends Component {
             selectableRows: 'none',
             selectToolbarPlacement: 'none',
             sortOrder: {
-                name: 'validator',
-                direction: 'asc',
+                name: 'is_pupmos',
+                direction: 'desc',
             },
             textLabels: {
                 body: {

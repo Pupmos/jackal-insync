@@ -8,7 +8,7 @@ import { hideConnectDialog } from '../../../actions/navBar';
 import ConnectButton from './KeplrConnectButton';
 import CosmostationConnectButton from './CosmostationConnectButton';
 import GetAppRoundedIcon from '@material-ui/icons/GetAppRounded';
-import insync from '../../../assets/insync.png';
+import insync from '../../../assets/pupmos.png';
 import './index.css';
 import { config } from '../../../config';
 

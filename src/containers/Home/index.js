@@ -76,6 +76,7 @@ class Home extends Component {
                     <div className="card">
                         <div className="left_content">
                             <h2>{variables[this.props.lang].welcome}</h2>
+                            <p className="info">Webzite built by Omniflix, operated wif lovb by Pupmøs ❤️</p>
                             <p className="info">{variables[this.props.lang].participate}</p>
                         </div>
                         <TokenDetails lang={this.props.lang}/>

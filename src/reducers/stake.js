@@ -48,9 +48,12 @@ const validators = (state = {
             inProgress: true,
         };
     case VALIDATORS_FETCH_SUCCESS:
+        console.log({ vals: action.list })
         return {
             ...state,
-            list: action.list,
+            list: action.list.sort((a, b) => {
+                return b.description?.moniker?.includes('PUPMØS') - a.description?.moniker?.includes('PUPMØS');
+            }),
             inProgress: false,
         };
     case VALIDATORS_FETCH_ERROR:
