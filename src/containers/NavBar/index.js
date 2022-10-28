@@ -328,7 +328,7 @@ class NavBar extends Component {
         return (
             <div className={ClassNames('nav_bar padding', localStorage.getItem('of_co_address') || this.props.address
                 ? '' : 'disconnected_nav')}>
-                <img src={pupmosLogo} style={{maxHeight: '60px', maxWidth: '60px'}}/>
+                <img src={pupmosLogo} alt="pupmos logo" style={{maxHeight: '60px', maxWidth: '60px'}}/>
                 <img
                     alt="OmniFlix"
                     src={logo}
